@@ -1,7 +1,5 @@
-import './App.css';
-import Form from "./components/login/Login";
+import './App.css'
 import React from "react";
-import Button from "@mui/material/Button";
 import Header from "./components/header/header";
 import Footer from "./components/footer/Footer";
 import './reset.css';
@@ -22,12 +20,17 @@ function App() {
   return (
       <div className="root">
         <div className="start_window_container">
+
             <Router >
                 <Header />
                 <Switch>
                     <Route path="/home">
                         <Home />
                     </Route>
+
+
+
+
 
                     <Route path="/form">
                         <Wedding_form />

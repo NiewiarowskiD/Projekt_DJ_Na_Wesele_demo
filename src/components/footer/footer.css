@@ -56,3 +56,24 @@
 
     }
 }
+
+@media only screen and (max-width: 500px) {
+    .footer_logo{
+        display: none;
+
+    }
+
+    .footer_navigation{
+        display: flex;
+    }
+
+    .li_nav{
+        margin: 5px;
+    }
+
+    .footer{
+        height: 60px;
+    }
+
+
+}

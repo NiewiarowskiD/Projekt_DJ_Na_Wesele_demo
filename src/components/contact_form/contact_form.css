@@ -69,8 +69,32 @@
 @media only screen and (max-width: 1050px) {
     .contact_form_container{
         width: 80vw;
-
-
+}
 
 }
+
+@media only screen and (max-width: 500px) {
+    .input_contact{
+        width: 70vw;
+        margin-bottom: 0px;
+        font-size: 0.5rem;
+    }
+
+    .contact_form_header{
+        font-size: 1rem;
+    }
+
+    .contact_form_button{
+        width: 70vw;
+
+
+    }
+    .message_form{
+        width: 70vw !important;
+        font-size: 0.5rem;
+    }
+
+    .contact_form_container{
+       height: 500px;
+    }
 }

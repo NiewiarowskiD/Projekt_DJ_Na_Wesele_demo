@@ -39,20 +39,20 @@ function Search_Dj_comp () {
             setName(event.target.getAttribute("alt"));
             setDescribe("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt " +
                 "ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labor" +
-                "is nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit ess\e" +
+                "is nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit ess" +
                 " cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non" +
                 " proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
             setYt_link("Pc1fBFlYoK0");
 
         };
 
-    useEffect(() => {
-        fetch(`http://localhost:3000/djs?name=${name}`)
-            .then(response => response.json())
-            .then(dj => {
-                setDescribe(dj);
-            });
-    }, [name])
+    //useEffect(() => {
+   //     fetch(`http://localhost:3000/djs?name=${name}`)
+    //        .then(response => response.json())
+     //       .then(dj => {
+    //            setDescribe(dj);
+    //        });
+   // }, [name])
 
 
 

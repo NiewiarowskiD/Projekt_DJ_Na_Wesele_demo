@@ -68,3 +68,30 @@
     }
 
 }
+
+@media only screen and (max-width: 500px){
+
+    .about_container {
+        max-width: 90vw;
+        height: 850px;
+        justify-content: flex-start;
+    }
+
+    .about_text{
+        display: flex;
+        align-items: center;
+        border: none;
+        margin-top: 15px;
+    }
+
+
+    .logo{
+        height: 140px;
+
+    }
+
+    .about_header{
+        display: none;
+    }
+
+}
