@@ -1,0 +1,70 @@
+.about_container{
+    margin: 100px;
+    height: 600px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(207, 217, 223, 0.9);
+
+}
+
+.logo_about{
+
+    height: 40%;
+
+
+}
+
+.logo{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_text{
+
+    height: 50%;
+    text-align: center;
+    border-top: 1px solid black;
+    padding: 20px;
+}
+
+.text{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif
+}
+
+.about_header{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 3rem;
+    font-family:  'Staatliches', cursive
+}
+@media only screen and (max-width: 1050px){
+
+    .about_container {
+        max-width: 90vw;
+        height: 800px;
+        justify-items: flex-start;
+    }
+
+    .about_text{
+        display: flex;
+        align-items: center;
+    }
+
+    .logo{
+        height: 280px;
+
+    }
+
+    .about_header{
+       display: none;
+    }
+
+}

@@ -1,0 +1,116 @@
+
+
+.wedding_form_container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 900px;
+    height: 1300px;
+    background-color: rgb(211, 211, 211, 0.9) !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+
+
+}
+
+
+.button_container_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wedding_form{
+    padding-top: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+input{
+    margin: 3px;
+    display: block;
+    width: 450px;
+    height: 1rem !important;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.message_form{
+
+    height: 150px !important;
+}
+
+.wedding_form_header{
+
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+.posilki{
+    height: 100px !important;
+}
+
+label{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 5px;
+    font-size: 1 rem;
+    font-family:  'Josefin Sans', sans-serif;
+
+}
+
+.wedding_form_button{
+
+    font-family: 'Roboto Slab', serif;
+    box-shadow: 0px 1px 0px 0px #1c1b18;
+    background-color: #eae0c2;
+    border: 3px solid black;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 14px 30px;
+    text-decoration: none;
+    width: 200px;
+}
+
+.button_container{
+    margin-top: 50px;
+    height: 50px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1050px) {
+    .wedding_form_container{
+        max-width: 90vw;
+        height: 2000px;
+
+    }
+    label{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+
+    }
+
+    input{
+        width: 70vw;
+    }
+
+}

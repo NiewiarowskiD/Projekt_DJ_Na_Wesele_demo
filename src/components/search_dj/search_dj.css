@@ -1,0 +1,154 @@
+.search_dj_container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.photos_container{
+    width: 568px;
+    height: 816px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+}
+
+.dj_describe{
+    width: 568px;
+    height: 816px;
+    background-color: rgb(211, 211, 211, 0.9);
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+
+
+.dj_describe_text{
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: none;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.dj_name{
+    font-family: 'Staatliches', cursive;
+    background-color: silver;
+    font-size: 45px;
+    margin: 0;
+    color: black;
+    text-align: center;
+    -webkit-text-stroke:1px white;
+    padding-top: 5px;
+    border-bottom: 1px solid black;
+
+}
+
+.dates{
+    padding-top: 10px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: red;
+}
+
+.dj_dates{
+
+    font-size: 25px;
+    margin: 0;
+    color: green;
+    text-align: left;
+    -webkit-text-stroke:0.5px black;
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+
+}
+
+.photo_bloc{
+    width: 284px;
+    height: 202px;
+}
+
+.photo{
+    width: 280px;
+    height: 200px;
+    border: 2px solid   black;
+    filter:grayscale(90);
+    z-index:0;
+    transition-property: -webkit-transform, -moz-transform;
+    transition-duration: 0.3s;
+
+}
+
+.photo_text{
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+}
+.photo:hover{
+    filter: none;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    z-index: 1;
+    cursor: pointer;
+
+}
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    padding-left: 25px;
+}
+
+@media only screen and (max-width: 1050px) {
+
+    .search_dj_container {
+        display: block;
+    }
+
+    .photos_container {
+        height: 820px;
+        width: 568px;
+    }
+
+    .dj_describe {
+
+    }
+
+    .dj_describe_text {
+        font-size: 1rem;
+
+    }
+
+    .dj_name {
+        font-size: 25px;
+    }
+
+
+}

@@ -1,0 +1,58 @@
+.footer{
+
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(211, 211, 211, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo_footer{
+    height: 50%;
+    width: 50%;
+
+}
+
+.footer_logo{
+    width: 300px;
+    border-right: black 1px solid;
+
+}
+
+.footer_nav_container{
+    margin-left: 100px;
+}
+
+.a_footer{
+    font-family: 'Staatliches', cursive;
+    font-weight: normal;
+    font-size: 13px;
+    text-decoration: none;
+    color: grey;
+    letter-spacing: 4px;
+
+}
+
+.a_footer:hover{
+    border: none;
+    color: black ;
+}
+
+
+.li_nav{
+    margin: 2px;
+    padding-top: 5px;
+}
+
+@media only screen and (max-width: 1050px) {
+    .footer_nav_container {
+        margin-left: 0px;
+    }
+
+    .footer_logo{
+        border-right: none;
+
+    }
+}
