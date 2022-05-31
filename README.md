@@ -1,5 +1,6 @@
-Dj_na_wesle_projekt_demo
+Projekt tworzony na własnym pomyśle - in progress. Wykorzystane technologie : HTML, CSS , JavaScript, React, SASS 
 
-https://djnawesele.web.app/
 
 Daniel Niewiarowski
+
+
